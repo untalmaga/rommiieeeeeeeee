@@ -1,0 +1,57 @@
+body,
+html{
+    font-family: 'Lato', sans-serif;  
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width:100%;
+    height:100%; 
+    position:absolute;
+    top:0;
+    left:0;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(241, 103, 91, 0.35), 
+      rgba(241, 103, 91, 0.15)
+    ),
+    /* bottom, image */
+    url(bedroom.jpeg);
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.container {
+    margin: 0 auto;
+  }
+
+h1 {
+    margin: 250px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    margin:40px auto;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    background-color: #F1675B;
+    border: 1px solid #F1675B;
+
+}
+
+.btn-primary:hover {
+    background-color: #FF1143;
+    border: 1px solid #FF1143;
+    text-align: center;
+}
